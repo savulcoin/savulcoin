@@ -27,6 +27,7 @@
     "es6-error": "^4.0.2",
     "express": "^4.16.2",
     "fs-extra": "^5.0.0",
+    "mem": "^8.0.0",
     "node-cron": "^2.0.3",
     "pug": "^2.0.0-rc.4",
     "ramda": "^0.25.0",
@@ -42,7 +43,6 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "mermaid.cli": "^0.3.1",
     "mocha": "^3.3.0",
     "mocha-steps": "^1.0.2",
     "nyc": "^10.3.0",
