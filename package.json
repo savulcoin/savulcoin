@@ -14,7 +14,7 @@
   "scripts": {
     "start": "node bin/savulcoin.js",
     "compose:up": "docker-compose up",
-    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov",
     "coverage": "nyc --reporter=lcov --reporter=text --clean node node_modules/mocha/bin/_mocha -u bdd --colors test/",
     "test": "_mocha -u bdd --colors test/",
     "nexebuild": "sh ./nexe-build.sh",
